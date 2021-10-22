@@ -1,8 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Input, Select, InputNumber, } from 'antd'
 
-const {Option} = Select;
 const Search = () => {
     return (
         <Container>

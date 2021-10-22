@@ -15,7 +15,7 @@ const Intro = () => {
                         </Typography>
                         <Typography variant="p" ><strong className={classes.purple}>kritya</strong> makes moving, insurance, and improving your home, simple.</Typography>
                      <hr/>
-                        <Button variant="contained" type="button" color="primary">What We Offer</Button>
+                        <Button variant="contained" type="button" style={{backgroundColor:'#c95bf5',color:'#fff'}}>What We Offer</Button>
                     </div>
                 </Col>
                 <Col sm={6} xs-hidden>
@@ -23,7 +23,7 @@ const Intro = () => {
                 </Col>
             </Row>
 
-           <img src="https://cdn.porch.com/bootstrap/0web/home-page/paths/path-1-with-section-nav.svg" alt="" />
+           {/* <img src="https://cdn.porch.com/bootstrap/0web/home-page/paths/path-1-with-section-nav.svg" alt="" /> */}
             
         </Container>
     )

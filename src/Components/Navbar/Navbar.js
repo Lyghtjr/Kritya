@@ -18,20 +18,20 @@ function NavBar() {
   return (
     <Navbar fixed="top" expand="md" className="sticky">
       <Container>
-        <Navbar.Brand href="/">
+        {/* <Navbar.Brand href="/">
             <Nav.Item>
                 <Nav.Link>
                     Logo
                 </Nav.Link>
             </Nav.Item>
-        </Navbar.Brand>
+        </Navbar.Brand> */}
         
         <Navbar.Toggle aria-controls="responsive-navbar-nav">
           <span></span>
           <span></span>
           <span></span>
         </Navbar.Toggle>
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse id="responsive-navbar-nav" style={{justifyContent:'flex-end'}}>
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link >

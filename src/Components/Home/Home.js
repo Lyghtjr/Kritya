@@ -1,12 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Search,Intro } from '../../Components'
+import { ServiceList,Intro } from '../../Components'
 import useStyle from '../../Styles/HomeStyle'
 const Home = () => {
     const classes = useStyle();
     return (
         <Container>
             <Intro/>
+            <ServiceList/>
         </Container>
     )
 }

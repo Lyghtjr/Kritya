@@ -110,6 +110,7 @@
     transition: all 0.3s ease-out 0s;
     position: relative;
     z-index: 1;
+    font-size: 14px;
   }
   
   .navbar-nav .nav-item a::after {
